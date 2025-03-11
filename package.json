@@ -1,0 +1,24 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "A practice project for webpack build tool",
+  "keywords": [
+    "webpack",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/golam71/odin-restaurant-page#readme",
+  "bugs": {
+    "url": "https://github.com/golam71/odin-restaurant-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golam71/odin-restaurant-page.git"
+  },
+  "license": "UNLICENSED",
+  "author": "golam71",
+  "type": "esm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
