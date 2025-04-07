@@ -1,10 +1,10 @@
-import { greeting } from "./greeting.js";
-import "./style.css"
-import img from "../public/goblin.png"
+import "./styles/global.css"
+import "./styles/nav.css"
+import "./styles/hero.css"
+import "./styles/time.css"
 
-console.log(greeting)
 
-const image = document.createElement("img");
-image.src = img;
+import { home } from "./home.js"
 
-document.body.appendChild(image);
+
+home()

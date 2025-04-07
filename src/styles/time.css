@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+.time {
+  padding: 10px;
+
+  margin: 30 auto;
+  background-color: #fcedc4;
+  border-radius: 10px;
+}
+.time h3 {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+}
+.time svg {
+  margin: 0px 10px;
+}
+th {
+  font-family: cursive;
+}
+
+th,
+td,
+tr {
+  padding: 4px;
+  text-align: left;
+}
+
+tr td:nth-child(1) {
+  text-align: left;
+}
