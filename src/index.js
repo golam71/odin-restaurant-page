@@ -1,10 +1,9 @@
-import "./styles/global.css"
-import "./styles/nav.css"
-import "./styles/hero.css"
-import "./styles/time.css"
+import "./styles/global.css";
+import "./styles/nav.css";
+import "./styles/hero.css";
+import "./styles/time.css";
+import "./styles/location.css";
 
+import { home } from "./home.js";
 
-import { home } from "./home.js"
-
-
-home()
+home();

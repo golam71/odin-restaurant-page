@@ -1,7 +1,3 @@
-table {
-  width: 100%;
-  margin: 0 auto;
-}
 .time {
   padding: 10px;
 
@@ -17,17 +13,13 @@ table {
 .time svg {
   margin: 0px 10px;
 }
-th {
+
+.data {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data div p:first-child {
   font-family: cursive;
-}
-
-th,
-td,
-tr {
-  padding: 4px;
-  text-align: left;
-}
-
-tr td:nth-child(1) {
-  text-align: left;
+  font-weight: 600;
 }
