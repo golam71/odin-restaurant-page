@@ -1,0 +1,18 @@
+.about {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 30 auto;
+}
+
+.about:first-of-type {
+  background-color: #d9ff96;
+}
+.about:nth-of-type(2) {
+  background-color: #d496ff;
+}
+
+.about:last-of-type {
+  background-color: #ff9696;
+}

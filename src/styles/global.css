@@ -1,6 +1,17 @@
 :root {
   --main-bg: #fef1e4;
   --alt-bg: #fcedc4;
+  --tertiary-bg: #ffbe96;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+b,
+strong {
+  font-family: cursive;
 }
 
 body {

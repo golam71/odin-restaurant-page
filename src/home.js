@@ -1,3 +1,6 @@
+import "./styles/home/hero.css";
+import "./styles/home/time.css";
+import "./styles/home/location.css";
 import foodImg from "../public/food.png";
 
 function flexHeroFunc() {

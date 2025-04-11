@@ -1,0 +1,32 @@
+.card {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  border: 2px solid transparent;
+  transition: border 0.3s ease; /* Added transition for border */
+}
+
+.card:nth-of-type(odd) {
+  background: var(--tertiary-bg);
+}
+.card:nth-of-type(even) {
+  background: #d9ff96;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card:hover {
+  border: 2px solid;
+  & img {
+    scale: 1.08;
+    transition: scale 0.3s ease;
+  }
+  & h3 {
+    text-decoration: underline;
+  }
+}

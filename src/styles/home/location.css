@@ -1,5 +1,5 @@
 .location {
-  background-color: #ffbe96;
+  background-color: var(--tertiary-bg);
   padding: 5px 10px;
   border-radius: 10px;
   margin: 10px 0px;
