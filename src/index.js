@@ -7,8 +7,7 @@ import { contact } from "./contact.js";
 import { menu } from "./menu.js";
 
 home();
-// menu();
-// contact();
+
 
 function clearContent() {
   document.getElementById("content").innerHTML = "";
